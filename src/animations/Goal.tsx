@@ -150,8 +150,8 @@ function Goal({ isDark }: changeTheme) {
         </div>
 
         <div className="flex flex-col items-start justify-center">
-          <span ref={efficientRef} className="text-[var(--teal-color)] font-bold text-[calc(1.8vw+0.6rem)]">Efficient</span>
-          <span ref={clicksRef} className="text-[calc(1vw+0.8rem)]">Eureka makes it easy to report and retrieve lost belongings in just a few clicks.</span>
+          <span ref={efficientRef} className="text-[var(--teal-color)] font-bold text-[calc(1vw+1.4rem)]">Efficient</span>
+          <span ref={clicksRef} className="text-[calc(1vw+0.8rem)]">Easy to report and retrieve lost belongings in just a few clicks.</span>
         </div>
 
       </div>
@@ -163,7 +163,7 @@ function Goal({ isDark }: changeTheme) {
         </div>
         
         <div className="flex flex-col items-start justify-center">
-          <span ref={empowerRef} className="text-[var(--pink-color)] font-bold text-[calc(1.8vw+0.6rem)]">Empower</span>
+          <span ref={empowerRef} className="text-[var(--pink-color)] font-bold text-[calc(1vw+1.4rem)]">Empower</span>
           <span ref={reduceRef} className="text-[calc(1vw+0.8rem)]">Reduce stress, save time, and foster a more connected campus.</span>
         </div>
 
