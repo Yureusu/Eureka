@@ -81,6 +81,7 @@ function Goal({ isDark }: changeTheme) {
     <div
       ref={goalRef}
       className={`${isDark? "bg-[var(--dark-color)] text-[var(--light-color)]" : "bg-[var(--light-color)] text-[var(--dark-color)]"} 
+        ${isMobile? "" : ""}
         h-screen w-screen flex flex-col items-start justify-center gap-[calc(1.4vw+1.6rem)] transition duration-300 ease-in-out snap-start`}>
       <div ref={clicksRef} className="px-6 text-[calc(0.8vw+1.2rem)] cursor-pointer p-[calc(0.4vw+0.6rem)]">
         Eureka makes it easy to report and retrieve lost belongings in just a few clicks,
