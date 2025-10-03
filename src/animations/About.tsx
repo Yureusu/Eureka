@@ -58,7 +58,7 @@ function About({isDark} : changeTheme) {
             { opacity: 1, scale: 1, rotate: 360, duration: 1, ease: "power2.out" }
         ).to(
             el,
-            { y: 10, duration: 0.6, ease: "sine.inOut" },
+            { y: -10, duration: 0.6, ease: "sine.inOut" },
             "+=0.5"
         ).to(
             el,
@@ -107,7 +107,7 @@ function About({isDark} : changeTheme) {
                 <div className="flex-1 flex flex-col items-start justify-center relative p-[calc(0.4vw+0.6rem)] ">
                     <i ref={loomRef} className={`${isMobile? "self-start my-[calc(0.6vw+0.8rem)]" : ""}
                         absolute top-[-64px] bxl bx-loom bx-spin-hover text-[calc(4vw+6rem)] inline-block cursor-pointer hover:text-[var(--blue-color)]`}></i>
-                    <span ref={aboutRef} className={`text-[calc(0.4vw+0.8rem)] font-semibold cursor-pointer`}>Your smart and efficient campus lost and found system designed to help students, faculty, 
+                    <span ref={aboutRef} className={`text-[calc(0.6vw+1rem)] font-semibold cursor-pointer`}>Your smart and efficient campus lost and found system designed to help students, faculty, 
                         and staff quickly report, locate, and reclaim lost items within the campus community. 
                     </span>
                 </div>

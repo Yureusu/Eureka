@@ -26,8 +26,8 @@ const UserForm: React.FC<UserFormProps> = ({
                 <div className={`
                     h-[calc(8vw+16rem)] w-[calc(8vw+16rem)] flex flex-col items-center justify-start bg-[var(--light-color)]
                     border-2 border-[var(--light-color)] absolute gap-[calc(0.6vw+0.4rem)]`}>
-                    <i className={`${isMobile? "h-[calc(0.6vw+1rem)] w-[calc(0.6vw+1rem)]" : "h-[calc(0.6vw+0.6rem)] w-[calc(0.6vw+0.6rem)]"}
-                        fa-solid fa-circle-xmark text-[calc(0.6vw+1.4rem)] cursor-pointer self-end mt-[-10px] mr-[-14px] text-[#D97D55]
+                    <i className={`${isMobile? "h-[calc(0.6vw+1rem)] w-[calc(0.6vw+1rem)] mt-[-8px] mr-[-12px]" : "h-[calc(0.6vw+0.6rem)] w-[calc(0.6vw+0.6rem)] mt-[-10px] mr-[-14px]"}
+                        fa-solid fa-circle-xmark text-[calc(0.6vw+1.4rem)] cursor-pointer self-end  text-[#D97D55]
                         rounded-full bg-[var(--text-color)] flex items-center justify-center`} onClick={() => setIsActive((prev) => !prev)}></i>
                     
                         <Signup />
