@@ -29,7 +29,6 @@ function Goal({ isDark }: changeTheme) {
         scroller: ".element",
         start: "top 80%",
         toggleActions: "play none none none",
-        markers: true,
         onEnter: () => {
           gsap.fromTo(
             splitReunite.words,
@@ -50,7 +49,6 @@ function Goal({ isDark }: changeTheme) {
         scroller: ".element",
         start: "top 80%",
         toggleActions: "play none none none",
-        markers: true,
         onEnter: () => {
           gsap.fromTo(
             splitAbout.words,
