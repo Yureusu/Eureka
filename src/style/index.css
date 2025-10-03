@@ -13,3 +13,14 @@
     --mint-color: #ABFF84;
     --border-color: #CFD8DC;
 }
+
+.element {
+  overflow-y: scroll;      
+  scrollbar-width: none;   
+  -ms-overflow-style: none;
+}
+
+.element::-webkit-scrollbar {
+  display: none;          
+}
+
